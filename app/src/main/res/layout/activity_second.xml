@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textViewDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dados do Personagem"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewDados"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewRaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raça: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewForca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Força: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDestreza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Destreza: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewConstituicao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Constituição: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewInteligencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inteligência: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewSabedoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabedoria: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewCarisma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carisma: "
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
